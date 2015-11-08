@@ -1,0 +1,80 @@
+@import 'compass/css3';
+
+$bg_color: #3b3531;
+$text_color: #ffffff;
+$header_color: #B7AE74;
+
+@mixin height($min, $max) {
+    min-height: $min;
+    max-height: $max;
+}
+
+@mixin min_height($min) {
+    min-height: $min;
+}
+
+body {
+    background: $bg_color;
+    color: $text_color;
+}
+
+.video-section .pattern-overlay {
+    background-color: rgba(71, 71, 71, 0.59);
+    padding: 110px 0 32px;
+    @include min_height(496px);
+}
+
+#footer {
+    @include height(250px, 300px);
+}
+
+.dark-overlay {
+    padding: 20px;
+    @include min_height(206px);
+}
+
+.dark, .video-section h1, .video-section h3 {
+    text-align: center;
+}
+
+.dark h1, .video-section h1 {
+    font-size: 110px;
+    font-family: 'Buenard', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 40px auto 0px;
+    text-shadow: 1px 1px 1px #000;
+    -webkit-text-shadow: 1px 1px 1px #000;
+    -moz-text-shadow: 1px 1px 1px #000;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0px auto 15px;
+}
+
+.dark h3 {
+    margin: 10px auto 2px;
+    color: $header_color;
+    font-size: 22px;
+}
+
+.dark h4 {
+    margin: 16px auto 2px;
+    color: $header_color;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+#credits {
+    margin-top: 90px;
+}
+
+.video-section .buttonBar {
+    display: none;
+}
+
+.player {
+    font-size: 1px;
+}

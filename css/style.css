@@ -1,0 +1,78 @@
+/* line 16, ../sass/style.scss */
+body {
+  background: #3b3531;
+  color: #ffffff;
+}
+
+/* line 21, ../sass/style.scss */
+.video-section .pattern-overlay {
+  background-color: rgba(71, 71, 71, 0.59);
+  padding: 110px 0 32px;
+  min-height: 496px;
+}
+
+/* line 27, ../sass/style.scss */
+#footer {
+  min-height: 250px;
+  max-height: 300px;
+}
+
+/* line 31, ../sass/style.scss */
+.dark-overlay {
+  padding: 20px;
+  min-height: 206px;
+}
+
+/* line 36, ../sass/style.scss */
+.dark, .video-section h1, .video-section h3 {
+  text-align: center;
+}
+
+/* line 40, ../sass/style.scss */
+.dark h1, .video-section h1 {
+  font-size: 110px;
+  font-family: 'Buenard', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 40px auto 0px;
+  text-shadow: 1px 1px 1px #000;
+  -webkit-text-shadow: 1px 1px 1px #000;
+  -moz-text-shadow: 1px 1px 1px #000;
+}
+
+/* line 51, ../sass/style.scss */
+h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 0px auto 15px;
+}
+
+/* line 57, ../sass/style.scss */
+.dark h3 {
+  margin: 10px auto 2px;
+  color: #B7AE74;
+  font-size: 22px;
+}
+
+/* line 63, ../sass/style.scss */
+.dark h4 {
+  margin: 16px auto 2px;
+  color: #B7AE74;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+/* line 70, ../sass/style.scss */
+#credits {
+  margin-top: 90px;
+}
+
+/* line 74, ../sass/style.scss */
+.video-section .buttonBar {
+  display: none;
+}
+
+/* line 78, ../sass/style.scss */
+.player {
+  font-size: 1px;
+}
